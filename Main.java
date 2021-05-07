@@ -3,7 +3,6 @@
 import java.util.Arrays;
 
 public class Main {
-
     public boolean getCheckElemOfArr(int[] array) {
         boolean allCheck=false, s=false, t =true;
         int u=array[0];
