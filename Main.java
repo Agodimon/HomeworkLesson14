@@ -9,6 +9,7 @@ public class Main {
         int u=array[0];
         for (int j : array) {
             if (u!=j) s=true;
+            //noinspection StatementWithEmptyBody
             if (j == 1 || j == 4){}else t =false;
         }
         if (t && s) allCheck=true;
